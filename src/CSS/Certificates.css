@@ -6,15 +6,15 @@
 .certi {
     width: 35%;
     position: absolute;
-    top: 30%;
+    top: 33%;
     left: 35%;
     transform: translateX(-50%) translateY(-50%);
 }
 .certitwo {
     width: 35%;
     position: absolute;
-    top: 30%;
-    left: 75%;
+    top: 33%;
+    left: 79%;
     transform: translateX(-50%) translateY(-50%);
 }
 
@@ -29,7 +29,7 @@
 .certifour {
     width: 35%;
     position: absolute;
-    top: 76%;
+    top: 79%;
     left: 75%;
     transform: translateX(-50%) translateY(-50%);
 }
