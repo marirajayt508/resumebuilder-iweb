@@ -1,0 +1,84 @@
+ body {
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.certi {
+    width: 35%;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.certitwo {
+    width: 35%;
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.certithree {
+    width: 35%;
+    position: absolute;
+    top: 76%;
+    left: 35%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.certifour {
+    width: 35%;
+    position: absolute;
+    top: 76%;
+    left: 75%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.cssanimation, .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.cssanimationtwo, .cssanimation span {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+.cssanimationthree, .cssanimation span {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+.cssanimationfour, .cssanimation span {
+    animation-duration: 4s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+
+.img-size{
+    height: 200px;
+  width: 100%;
+}
+
+.font {
+    font-size: 15px;
+  }
+
+  .dp-control{
+    height: 70px;
+  width: 35%;
+}
+
+.menu-font{
+    font-size: 17px;
+  }
